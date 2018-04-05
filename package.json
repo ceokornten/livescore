@@ -1,0 +1,29 @@
+{
+  "name": "livescore-client",
+  "version": "0.0.1-9",
+  "main": "lib/livescore",
+  "description": "livescore-api client",
+  "author": "Nicolas Del Valle <nicolas.delvalle@gmail.com>",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "format:changed": "pretty-quick",
+    "format:staged": "pretty-quick --staged"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "husky": "0.14.3",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1"
+  },
+  "pre-commit": [
+    "format:staged",
+    "lint",
+    "test"
+  ]
+}
