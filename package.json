@@ -27,5 +27,8 @@
     "format:staged",
     "lint",
     "test"
-  ]
+  ],
+  "engines": {
+    "node": ">=6"
+  }
 }
