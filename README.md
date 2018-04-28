@@ -1,6 +1,6 @@
 # livescore
 
-[![Codeship Status](https://img.shields.io/codeship/aef1fb60-1d95-0136-a767-1e122402486a/master.svg)](https://app.codeship.com/projects/284751)
+[![Codeship Status for ndelvalle/livescore](https://app.codeship.com/projects/aef1fb60-1d95-0136-a767-1e122402486a/status?branch=master)](https://app.codeship.com/projects/284751)
 [![Coverage Status](https://coveralls.io/repos/github/ndelvalle/livescore/badge.svg?branch=master)](https://coveralls.io/github/ndelvalle/livescore?branch=master)
 [![bitHound Overall Score](https://www.bithound.io/github/ndelvalle/livescore/badges/score.svg)](https://www.bithound.io/github/ndelvalle/livescore)
 [![bitHound Dependencies](https://www.bithound.io/github/ndelvalle/livescore/badges/dependencies.svg)](https://www.bithound.io/github/ndelvalle/livescore/master/dependencies/npm)
